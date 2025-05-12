@@ -1,0 +1,22 @@
+.button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s, filter 0.2s;
+    color: white;
+}
+
+.primary {
+    background-color: #c4c4c4;
+}
+
+.secondary {
+    background-color: #26A69A;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    filter: brightness(0.9);
+}

@@ -1,0 +1,37 @@
+.markdownViewer {
+    color: #333333;
+    line-height: 1.6;
+}
+
+.markdownViewer h1,
+.markdownViewer h2,
+.markdownViewer h3,
+.markdownViewer h4,
+.markdownViewer h5,
+.markdownViewer h6 {
+    color: #1E88E5;
+    margin-bottom: 1rem;
+}
+
+.markdownViewer p {
+    margin-bottom: 1rem;
+}
+
+.markdownViewer ul,
+.markdownViewer ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.markdownViewer code {
+    background: #F5F5F5;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+}
+
+.markdownViewer pre {
+    background: #F5F5F5;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+}

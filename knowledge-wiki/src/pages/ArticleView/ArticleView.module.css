@@ -1,0 +1,27 @@
+.articleView {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.articleView h1 {
+    color: #1E88E5;
+    margin-bottom: 1rem;
+}
+
+.metadata {
+    color: #333333;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.metadata span {
+    margin-right: 1rem;
+}
+
+@media (max-width: 600px) {
+    .articleView {
+        padding: 1rem;
+        margin: 1rem;
+    }
+}

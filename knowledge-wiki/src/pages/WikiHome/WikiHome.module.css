@@ -1,0 +1,78 @@
+.wikiHome {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #F5F5F5;
+    padding: 1.5rem;
+    border-right: 1px solid #CCCCCC;
+}
+
+.sidebar h2 {
+    margin-bottom: 1rem;
+    color: #333333;
+}
+
+.sidebar select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.articleList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.articleCard {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.articleCard:hover {
+    transform: translateY(-4px);
+}
+
+.articleCard h3 {
+    color: #1E88E5;
+    margin-bottom: 0.5rem;
+}
+
+.articleCard p {
+    color: #333333;
+}
+
+@media (max-width: 768px) {
+    .wikiHome {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #CCCCCC;
+    }
+}
